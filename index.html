@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Fiorito - The Urban Cafe</title>
+    <meta name="description" content="Experience exceptional coffee, cozy atmosphere, and artisanal pastries at Café Aroma. Reserve your table for the perfect coffee shop experience in the heart of downtown.">
+    <meta name="author" content="Café Aroma">
+    
+    <meta property="og:title" content="La Fiorito - The Urban Cafe">
+    <meta property="og:description" content="Experience exceptional coffee, cozy atmosphere, and artisanal pastries at Café Aroma. Reserve your table for the perfect coffee shop experience.">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <a href="#home" class="logo">
+                    <svg class="coffee-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                        <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                        <line x1="6" y1="1" x2="6" y2="4"/>
+                        <line x1="10" y1="1" x2="10" y2="4"/>
+                        <line x1="14" y1="1" x2="14" y2="4"/>
+                    </svg>
+                    <span>La Fiorito - The Urban Cafe</span>
+                </a>
+
+                <div class="nav-links desktop-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#staff">Staff</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="nav-reserve desktop-nav">
+                    <button class="reserve-btn">
+                        <svg class="calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                        Reserve Table
+                    </button>
+                </div>
+
+                <button class="mobile-menu-btn">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+
+            <div class="mobile-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#staff">Staff</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+                <button class="reserve-btn mobile">
+                    <svg class="calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                        <line x1="16" y1="2" x2="16" y2="6"/>
+                        <line x1="8" y1="2" x2="8" y2="6"/>
+                        <line x1="3" y1="10" x2="21" y2="10"/>
+                    </svg>
+                    Reserve Table
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Welcome to
+                <span class="gradient-text">EcLipse EspRessO</span>
+            </h1>
+            <p class="hero-subtitle">
+                Experience the perfect blend of artisanal coffee, cozy atmosphere, and exceptional service 
+                in the heart of the city.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn primary" onclick="showReservationForm()">
+                    <svg class="calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                        <line x1="16" y1="2" x2="16" y2="6"/>
+                        <line x1="8" y1="2" x2="8" y2="6"/>
+                        <line x1="3" y1="10" x2="21" y2="10"/>
+                    </svg>
+                    Make Reservation
+                </button>
+                <button class="btn secondary" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})">
+                    Explore Menu
+                </button>
+            </div>
+            <div class="scroll-indicator">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6,9 12,15 18,9"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Story</h2>
+                <p>
+                    Founded in 2000, La Fiorito - The Urban Cafe has been serving the community with passion and dedication. 
+                    Our mission is to create a space where exceptional coffee meets genuine hospitality, 
+                    making every visit a memorable experience.
+                    <br><br>
+                    The café had been in the town for as long as anyone could remember, and it had become a beloved institution among the locals.
+                    The café was run by a friendly and hospitable couple, Mr. and Mrs. Oberois.
+                    <br><br>
+                    EcLipse EspRessO this is our first branch in India located in Mumbai.<br>
+                    The Beanery this is our branch located in Dubai.<br>
+                    Cafe Mondial this is our branch located in France.<br>
+                    Global Grounds this is our branch located in NewYork. etc places...
+                    <br><br>
+                    La Fiorito - The Urban Cafe has 25+ international branch over the world and we have work hard for the expand our network all around the world.
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                        </svg>
+                    </div>
+                    <h3>Artisanal Coffee</h3>
+                    <p>Freshly roasted beans sourced directly from sustainable farms worldwide.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Cozy Atmosphere</h3>
+                    <p>A warm, welcoming space perfect for meetings, work, or relaxation.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="8" r="7"/>
+                            <polyline points="8.21,13.89 7,23 12,20 17,23 15.79,13.88"/>
+                        </svg>
+                    </div>
+                    <h3>Award Winning</h3>
+                    <p>Recognized for excellence in coffee quality and customer service.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12,6 12,12 16,14"/>
+                        </svg>
+                    </div>
+                    <h3>Always Fresh</h3>
+                    <p>Coffee roasted daily and pastries baked fresh every morning.</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <h3>Visit Us Today</h3>
+                <div class="info-grid">
+                    <div>
+                        <h4>Location</h4>
+                        <p> Bandra West, Mumbai, Maharashtra <br> 400050, India</p>
+                    </div>
+                    
+                    <div>
+                        <h4>Contact</h4>
+                        <p>Phone: (+91)7000800900<br>Email:hello@cafearoma.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header white">
+                <h2>Our Menu</h2>
+                <p>
+                    Discover our carefully crafted selection of breakfast delights and premium coffee beverages, 
+                    made fresh daily with the finest ingredients.<br><br>
+
+                    We have a wide range of Menu in Breakfast and Coffee both section
+                    and we have only serve in VEG. 
+                </p>
+            </div>
+
+            <div class="menu-sections">
+                <!-- Breakfast Menu -->
+                <div class="menu-section">
+                    <div class="menu-header">
+                        <p class="menu-subtitle">Delicious Menu</p>
+                        <h3>Breakfast</h3>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Aglio e Olio Spaghetti</h4>
+                                    </div>
+                                    <p>roasted garlic,Cherry Tomato,Parmesan,Basil</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1979</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Truffle Ravioli</h4>
+                                        <span class="recommend-badge">Recommend</span>
+                                    </div>
+                                    <p>Truffle Pasta,Cream,Parmesan</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="original-price">₹2299</span>
+                                    <span class="price">₹1699</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Risotto</h4>
+                                    </div>
+                                    <p>Available in Pomodoro,Basil pesto & Alfredo</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1599</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Hawaiian Delight</h4>
+                                    </div>
+                                    <p>Pomodoro sauce,Fresh Mozzarella,Pinaapple,Jalapino</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹999</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Burrito</h4>
+                                    </div>
+                                    <p>Bacon, Cheese, Peppers in tortilla</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1249</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Porcini Mushroom Risotto</h4>
+                                    </div>
+                                    <p>Truffle paste,Cream,Thyme</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1499</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Asparagus Agnolotti</h4>
+                                    </div>
+                                    <p>Cream cheese,Pinenut,Parmesan sauce,Rosted Asparagus</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹899</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Ricotta Gnocchi</h4>
+                                        <span class="recommend-badge">Recommend</span>
+                                    </div>
+                                    <p>Pomodoro sauce,Basil pesto,Alfredo truffle sauce</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1299</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>EcLipse EspRessO Tortellini</h4>
+                                    </div>
+                                    <p>Available in Pomodoro,Basil Pasto,Lemon Butter Garlic</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1649</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Hummus with Pita</h4>
+                                    </div>
+                                    <p>Mushroom in Madras spice and Roasted veg with Balsamic</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1339</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Rubello  Pizza</h4>
+                                        <span class="recommend-badge">Recommend</span>
+                                    </div>
+                                    <p>Pomodoro sauce,Chilli Flakes,Onion,Bell Paper,Jalapino</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1199</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Funghi (Pizza Flavour)</h4>
+                                        <span class="recommend-badge">Recommend</span>
+                                    </div>
+                                    <p>Basil Pesto, Parmesan, Chilly Flakes, Shitake Mushroom, Enoki, Shimeji</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1339</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coffee Menu -->
+                <div class="menu-section">
+                    <div class="menu-header">
+                        <p class="menu-subtitle">Favourite Menu</p>
+                        <h3>Coffee</h3>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Cappuccino</h4>
+                                        <span class="recommend-badge">Recommend</span>
+                                    </div>
+                                    <p>Fresh brewed espresso with steamed milk foam</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="original-price">₹999</span>
+                                    <span class="price">₹699</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Americano</h4>
+                                    </div>
+                                    <p>Rich espresso with hot water</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1199</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Caramel Macchiato</h4>
+                                        <span class="recommend-badge">Recommend</span>
+                                    </div>
+                                    <p>Espresso, steamed milk, vanilla & caramel drizzle</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1299</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Cold Brew</h4>
+                                    </div>
+                                    <p>Smooth cold-extracted coffee served over ice</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹999</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Mocha Latte</h4>
+                                    </div>
+                                    <p>Espresso, chocolate, steamed milk & whipped cream</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹1579</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Hot Chocolate</h4>
+                                        <span class="recommend-badge">Recommend</span>
+                                    </div>
+                                    <p>Smooth cold-extracted coffee served</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹579</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Organic Sparkling Kombucha</h4>
+                                    </div>
+                                    <p>Available in Ginger Lemon & Apple Cinnamon</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹999</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>V60 Pour Over Hot/Iced</h4>
+                                    </div>
+                                    <p>Indian Origin with International Premium</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹699</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Hazelnut</h4>
+                                        <span class="recommend-badge">Recommend</span>
+                                    </div>
+                                    <p>Espresso, chocolate, steamed milk & whipped cream with Hazelnut flavour</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹779</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Peanut Butter Coffee</h4>
+                                    </div>
+                                    <p>Butter,Peanut,Espresso shot</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹979</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Tiramisu</h4>
+                                        <span class="recommend-badge">Recommend</span>
+                                    </div>
+                                    <p>Mascarpone ,Coffee ,Granulated Sugar ,Vanilla extract ,Cocoa powder</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹879</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-overlay"></div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-info">
+                                    <div class="menu-item-header">
+                                        <h4>Filter Kappi By Mokka Pot</h4>
+                                    </div>
+                                    <p>Traditional filter coffee</p>
+                                </div>
+                                <div class="menu-item-price">
+                                    <span class="price">₹579</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Staff Section -->
+    <section id="staff" class="staff">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our Team</h2>
+                <h4>Meet Our Barista</h4><br><br>
+                <p>
+                    The passionate people behind every perfect cup. Our team brings together years of experience, 
+                    creativity, and genuine care for our craft and community.
+                </p>
+            </div>
+
+            <div class="staff-grid">
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="H:\Project Cafe\images\team\boss.png" alt="Anand Oberoi">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Anand Oberoi</h3>
+                        <p class="staff-position">Owner & Boss</p>
+                        <div class="staff-specialty">Business Strategy & Vision</div>
+                        <p class="staff-bio">Passionate entrepreneur with 15 years in hospitality. Oberois founded EcLipse EspRessO with a vision to create the perfect coffee experience.</p>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="H:\Project Cafe\images\team\manager.png" alt="Amit Ramani">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Amit Ramani</h3>
+                        <p class="staff-position">General Manager</p>
+                        <div class="staff-specialty">Operations & Customer Relations</div>
+                        <p class="staff-bio">Operations expert ensuring smooth daily operations and exceptional customer service. Sarah has been with us since day one.</p>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="H:\Project Cafe\images\team\senior.png" alt="Chef Aishwarya">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Chef Aishwarya</h3>
+                        <p class="staff-position">Senior Chef</p>
+                        <div class="staff-specialty">Pastries & Culinary Arts</div>
+                        <p class="staff-bio">Culinary mastermind behind our delicious pastries and light meals. Antonio brings European training and local flair to every dish.</p>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="H:\Project Cafe\images\team\head chef.png" alt="Ami Agarwal">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Ami </h3>
+                        <p class="staff-position">Head Barista</p>
+                        <div class="staff-specialty">Coffee Brewing & Training</div>
+                        <p class="staff-bio">Coffee enthusiast and latte art champion. Emma trains our team and ensures every cup meets our high standards.</p>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="H:\Project Cafe\images\team\worker.png" alt="Riya">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Riya</h3>
+                        <p class="staff-position">Barista</p>
+                        <div class="staff-specialty">Specialty Drinks</div>
+                        <p class="staff-bio">Friendly face behind the counter with expertise in specialty drinks. David loves connecting with customers and creating perfect beverages.</p>
+                    </div>
+                </div>
+
+                <div class="staff-card">
+                    <div class="staff-image">
+                        <img src="H:\Project Cafe\images\team\barista.png" alt="Aadhaya">
+                    </div>
+                    <div class="staff-info">
+                        <h3>Aadhaya</h3>
+                        <p class="staff-position">Barista</p>
+                        <div class="staff-specialty">Seasonal Creations</div>
+                        <p class="staff-bio">Creative barista known for innovative seasonal drinks. Lisa brings energy and creativity to our team every day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <div class="rating-summary">
+                    <div class="stars">
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="star filled">★</span>
+                        <span class="rating-score">4.9</span>
+                    </div>
+                    <p>Based on 9999+ reviews</p>
+                </div>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r2.png" alt="Arjun Bijlani" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Arjun Bijlani</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Absolutely love this place! The coffee is consistently amazing and the staff always remembers my order. The atmosphere is perfect for both work meetings and casual hangouts."</p>
+                    <p class="review-date">4 month ago</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r1.png" alt="Kanika Mann" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Kanika Mann</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Best coffee in the city, hands down. The latte art is incredible and the pastries are always fresh. This has become my daily stop before work."</p>
+                    <p class="review-date">2 month ago</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r3.png" alt="Isha Malaviya" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Isha Malaviya</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Such a cozy atmosphere! I love coming here to read and study. The wifi is fast, the seating is comfortable, and the coffee keeps me going for hours."</p>
+                    <p class="review-date">3 weeks ago</p>
+                </div>
+
+                                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r6.png" alt="Karan Kundra" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Karan Kundra</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"The seasonal drinks are creative and delicious! I especially love how they source their beans ethically. You can taste the quality in every sip."</p>
+                    <p class="review-date">1 months ago</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r4.png" alt="Gayatri Malhotra" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Gayatri Malhotra</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Exceptional service and quality. The team clearly cares about their craft. My business partner and I have our weekly meetings here - couldn't recommend it more."</p>
+                    <p class="review-date">3 week ago</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r10.png" alt="Prithavi Patel" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Prithavi Patel</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Family-friendly environment with amazing food options. My kids love the hot chocolate while I enjoy the best espresso in town. Always clean and welcoming."</p>
+                    <p class="review-date">1 days ago</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r8.png" alt="Shrinidhi" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Shrinidhi</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"This cafe is huge and the ambience is vibrant. The food was good and the service thoughtful and prompt. I guess the action that made my view about the experience so delightful is that one of my family members was fasting which the lady manager noticed and got him a platter of fruits."</p>
+                    <p class="review-date">1 months ago</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r7.png" alt="Rahul Vaidhya" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Rahul Vaidhya</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"I m really happy to visit here this place is really amazing staff over here is very polite and cute enough talking about food it's delicious and ambience is beautiful n comfortable."</p>
+                    <p class="review-date">4 months ago</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r9.png" alt="Reem Shaikh" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Anushka Mittal</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"I m just glad that i visited lotus cafe..i was just shocked to see the service so amazing it was..they take care of each and every guest nd the food was very delicious..i just enjoyed the sunday brunch..feeling very glad just keep it up guys."</p>
+                    <p class="review-date">2 week ago</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r11.png" alt="Vardaan Malhan" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Vardaan Malhan</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"It was such a great pleasure dining in here. Though the restaurant was buzzing with guests, the staff there made sure to cater to the smallest of our needs and be friendly at the same time. The manager Mr Jazib Hussain was the cherry on the cake. Keep it up!"</p>
+                    <p class="review-date">6 days ago</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r12.png" alt="Kajal Himalayan" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Kajal Himalayan</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Food was amazing, ambience was so appropriate that we all enjoyed our meal and staff was helpfull. Mainly staff was properly decorated to provide us the service. The food in menu card was confusing us because of having multicuisine serving. Overall enjoyed the time spent over there !"</p>
+                    <p class="review-date">1 week ago</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="H:\Project Cafe\images\reviews\r5.png" alt="Abhishek Malhan" class="reviewer-avatar">
+                        <div class="reviewer-info">
+                            <h4>Abhishek Malhan</h4>
+                            <div class="review-stars">
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                                <span class="star filled">★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"The breakfast spread in Lotus café is very elaborate. Nice view towards the garden and pool, which is refreshing in the morning. The service is good."</p>
+                    <p class="review-date">3 days ago</p>
+                </div>
+            </div>
+
+                <div class="review-cta">
+                    <h3>Share Your Experience</h3>
+                        <p>We'd love to hear about your visit! Your feedback helps us continue to improve and serve you better.</p>
+                <div class="review-buttons">
+                    <a href="https://maps.app.goo.gl/TVKTLsfW3iBMd6DK8" target="_blank" class="btn primary">Leave a Google Review</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>
+                    We'd love to hear from you! Whether you have questions, feedback, or just want to chat about coffee, 
+                    don't hesitate to reach out.
+                </p>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>Bandra West, Mumbai <br> Maharashtra,400050 <br> India</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>(+91)7000800900<br>(+91)7000900800</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>hello@EcLipseEspRessO.com<br>reservations@EcLipse.com</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12,6 12,12 16,14"/>
+                        </svg>
+                    </div>
+                    <h3>Opening Hours</h3>
+                    <p>Mon-Fri: 6:30 AM - 11:30 PM<br>Saturday: 7:00 AM - 11:30 PM<br>Sunday: 10:00 AM - 11:30 PM</p>
+                </div>
+            </div>
+
+            <div class="contact-form-section">
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" placeholder="Krishna" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Nenvani" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="krishnanenwani22@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What can we help you with?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us more about your inquiry..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary full-width">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-sidebar">
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <p><strong>Interactive Map</strong></p>
+                            <p>Bandra West, Mumbai<br> Maharashtra,400050 <br>India</p>
+                        </div>
+                    </div>
+
+                    <div class="social-card">
+                        <h4>Follow Us</h4>
+                        <p>Stay connected with us on social media for the latest updates, special offers, and behind-the-scenes moments.</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="Facebook">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="X">
+                                 <svg viewBox="0 0 1200 1227" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor">
+                                    <path d="M713.8 519.6 1160.9 0H1054.2L669.1 450.9 357.1 0H0l466.3 681.5L0 1226.6h106.7l407.5-474.6 332.2 474.6H1200L713.8 519.6ZM564.6 689.1l-47.3-67.2L145.2 79.7h161.4l304.2 432.2 47.3 67.2 389.9 553.7H886.6L564.6 689.1Z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="quick-contact">
+                        <h4>Quick Contact</h4>
+                        <p>Need immediate assistance? Give us a call during business hours.</p>
+                        <div class="quick-contact-info">
+                            <div class="contact-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                <span>(+91)7000800900</span>
+                            </div>
+                            <div class="contact-item">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <span>hello@EcLipseEspRessO.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Modal -->
+    <div id="reservationModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Reserve Your Table</h2>
+                <span class="close" onclick="hideReservationForm()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="reservationForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="resName">Full Name</label>
+                            <input type="text" id="resName" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="resEmail">Email Address</label>
+                            <input type="email" id="resEmail" name="email" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="resPhone">Phone Number</label>
+                        <input type="tel" id="resPhone" name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="resDate">Date</label>
+                            <input type="date" id="resDate" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="resTime">Time</label>
+                            <select id="resTime" name="time" required>
+                                <option value="">Select time</option>
+                                <option value="8:00 AM">8:00 AM</option>
+                                <option value="8:30 AM">8:30 AM</option>
+                                <option value="9:00 AM">9:00 AM</option>
+                                <option value="9:30 AM">9:30 AM</option>
+                                <option value="10:00 AM">10:00 AM</option>
+                                <option value="11:00 AM">11:00 AM</option>
+                                <option value="11:30 AM">11:30 AM</option>
+                                <option value="12:00 PM">12:00 PM</option>
+                                <option value="12:30 PM">12:30 PM</option>
+                                <option value="1:00 PM">1:00 PM</option>
+                                <option value="1:30 PM">1:30 PM</option>
+                                <option value="2:00 PM">2:00 PM</option>
+                                <option value="2:30 PM">2:30 PM</option>
+                                <option value="3:00 PM">3:00 PM</option>
+                                <option value="3:30 PM">3:30 PM</option>
+                                <option value="4:00 PM">4:00 PM</option>
+                                <option value="4:30 PM">4:30 PM</option>
+                                <option value="5:00 PM">5:00 PM</option>
+                                <option value="5:30 PM">5:30 PM</option>
+                                <option value="6:00 PM">6:00 PM</option>
+                                <option value="6:30 PM">6:30 PM</option>
+                                <option value="7:00 PM">7:00 PM</option>
+                                <option value="7:30 PM">7:30 PM</option>
+                                <option value="8:00 PM">8:00 PM</option>
+                                <option value="8:30 PM">8:30 PM</option>
+                                <option value="9:00 PM">9:00 PM</option>
+                                <option value="9:30 PM">9:30 PM</option>
+                                <option value="10:00 PM">10:00 PM</option>
+                                <option value="10:30 PM">10:30 PM</option>
+                                <option value="11:00 PM">11:00 PM</option>
+                                <option value="11:30 PM">11:30 PM</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="resGuests">Party Size</label>
+                            <select id="resGuests" name="guests" required>
+                                <option value="">Select guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5">5 Guests</option>
+                                <option value="6">6 Guests</option>
+                                <option value="7">7 Guests</option>
+                                <option value="8">8 Guests</option>
+                                <option value="9">9 Guests</option>
+                                <option value="10+">10+ Guests</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="resRequests">Special Requests</label>
+                        <textarea id="resRequests" name="requests" rows="3" placeholder="Any special dietary requirements, celebration details, or seating preferences..."></textarea>
+                    </div>
+                    <button type="submit" class="btn primary full-width">Reserve Table</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Toast -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22,4 12,14.01 9,11.01"/>
+            </svg>
+            <div class="toast-text">
+                <h4>Reservation Confirmed!</h4>
+                <p id="toastMessage">Your table has been reserved successfully.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
